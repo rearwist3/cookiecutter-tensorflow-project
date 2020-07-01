@@ -105,3 +105,13 @@ ENV/
 .idea/modules.xml
 .idea/workspace.xml
 experiments/
+
+docs/site/
+
+# OSX Junk
+.DS_Store
+
+# test cache
+.cache/*
+tests/__pycache__/*
+*.pytest_cache/
