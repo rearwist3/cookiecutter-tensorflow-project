@@ -18,6 +18,6 @@ setup(
 {%- if cookiecutter.open_source_license in license_classifiers %}
     license="{{ cookiecutter.open_source_license }}",
 {%- endif %}
-    url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_repo }}',
+    url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}',
 )
 
