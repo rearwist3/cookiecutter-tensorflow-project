@@ -13,7 +13,7 @@ setup(
     packages=find_packages(),
     version='{{ cookiecutter.version }}',
     description='{{ cookiecutter.description }}',
-    author='{{ cookiecutter.author_name }}',
+    author='{{ cookiecutter.full_name }}',
     author_email='{{ cookiecutter.email }}',
 {%- if cookiecutter.open_source_license in license_classifiers %}
     license="{{ cookiecutter.open_source_license }}",
