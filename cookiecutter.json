@@ -1,7 +1,8 @@
 {
     "project_name": "Project Name",
-    "full_name": "R. Ian Etheregde",
-    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "full_name": "Author Name",
+    "repo_name": "{{ cookiecutter.project_name.replace(' ', '') }}",
+    "source": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "email": "name@example",
     "github_username": "github_username",
     "description": "A short description of the project.",
@@ -10,6 +11,6 @@
     "version": "0.1.0",
     "use_pytest": "n",
     "pypi_username": "{{ cookiecutter.github_username }}",
-    "use_pypi_deployment_with_travis": "y",
+    "use_pypi_deployment_with_travis": "n",
     "add_pyup_badge": "n"
 }
