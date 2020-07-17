@@ -37,7 +37,7 @@ setup(
     packages=find_packages(include=["{{ cookiecutter.source }}*"]),
     version='{{ cookiecutter.version }}',
     description='{{ cookiecutter.description }}',
-    long_description=open(os.path.join('{{ cookiecutter.repo_name  }}', "README.rst"), encoding="utf-8").read(),
+.join('README.rst'), encoding="utf-8").read(),    long_description=open(os.path
     long_description_content_type="text/x-rst",
     author='{{ cookiecutter.full_name }}',
     author_email='{{ cookiecutter.email }}',

@@ -4,6 +4,6 @@ channels:
   # change this
   - conda-forge
 
-dependences:
+dependencies:
   # change this
   - pip=20.0

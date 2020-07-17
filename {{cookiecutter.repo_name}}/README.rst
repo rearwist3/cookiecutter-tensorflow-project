@@ -32,13 +32,29 @@
 Setup
 --------
 
+To setup the project environment
+
 .. code-block:: bash
 
-conda env create --prefix ./env --file {{cookiecutter.source}}.yml
+conda env create --prefix ./env --file environment.yml
 
 ::
 
-python setup.py install
+To install the project
+
+pip install .
+
+::
+
+conda activate ./env
+
+::
+
+For updating the environment and dependencies, change environment.yml and run
+
+.. code-block:: bash
+
+conda env update --prefix ./env --file environment.yml --prune
 
 ::
 
