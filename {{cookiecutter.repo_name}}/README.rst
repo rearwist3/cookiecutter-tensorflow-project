@@ -38,8 +38,6 @@ conda env create --prefix ./env --file {{cookiecutter.source}}.yml
 
 ::
 
-.. code-block:: bash
-
 python setup.py install
 
 ::
