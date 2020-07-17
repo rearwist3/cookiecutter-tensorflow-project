@@ -34,7 +34,7 @@ Setup
 
 code-block:: bash
 
-conda env create --prefix ./env --file environment.yml
+conda env create --prefix ./env --file {{cookiecutter.source}}.yml
 python setup.py install
 
 Features
