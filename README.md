@@ -1,5 +1,5 @@
 # Cookiecutter Tensorflow Project Generator
-A cookiecutter project for generating a project template for data science/deep learning projects modelled off the template described below
+A cookiecutter project for generating a project template for data science/deep learning projects adapted from the template described below, *updated for tf 2.x best practices*
 
 # Tensorflow Project Template
 A simple and well designed structure is essential for any Deep Learning project, so after a lot of practice and contributing in tensorflow projects here's a tensorflow project template that combines   **simplcity**, **best practice for folder structure** and **good OOP design**.
