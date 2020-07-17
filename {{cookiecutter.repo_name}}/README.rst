@@ -32,23 +32,30 @@
 Setup
 --------
 
-To setup the project environment
+Setup the project environment
 
 .. code-block:: bash
 
-conda env create --prefix ./env --file environment.yml
+$ conda env create --prefix ./env --file environment.yml
 
 ::
 
-To install the project
+Activate the environment
 
-pip install .
+.. code-block:: bash
+
+$ conda activate ./env
+
+::
+
+Install the project package
+
+.. code-block:: bash
+
+$ pip install .
 
 ::
 
-conda activate ./env
-
-::
 
 For updating the environment and dependencies, change environment.yml and run
 
