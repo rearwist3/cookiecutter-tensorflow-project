@@ -7,7 +7,6 @@
     "github_username": "github_username",
     "description": "A short description of the project.",
     "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
-    "python_interpreter": ["python3", "python"],
     "version": "0.1.0",
     "use_pytest": "n",
     "pypi_username": "{{ cookiecutter.github_username }}",

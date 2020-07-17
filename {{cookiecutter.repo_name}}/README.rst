@@ -29,6 +29,14 @@
 * Documentation: https://{{ cookiecutter.repo_name | replace("_", "-") }}.readthedocs.io.
 {% endif %}
 
+Setup
+--------
+
+code-block:: bash
+
+conda env create --prefix ./env --file environment.yml
+python setup.py install
+
 Features
 --------
 

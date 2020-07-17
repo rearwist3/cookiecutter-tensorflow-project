@@ -1,0 +1,9 @@
+name: {{cookiecutter.source}}
+
+channels:
+  # change this
+  - conda-forge
+
+dependences:
+  # change this
+  - pip=20.0
