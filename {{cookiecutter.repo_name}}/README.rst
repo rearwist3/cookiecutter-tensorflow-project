@@ -32,10 +32,12 @@
 Setup
 --------
 
-code-block:: bash
+.. code-block:: bash
 
 conda env create --prefix ./env --file {{cookiecutter.source}}.yml
 python setup.py install
+
+::
 
 Features
 --------
