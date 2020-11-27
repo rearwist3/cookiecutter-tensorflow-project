@@ -1,6 +1,8 @@
 import numpy as np
 
+### generate synthetic samples
 
+# WIP
 class DataGenerator:
     def __init__(self, config):
         self.config = config
