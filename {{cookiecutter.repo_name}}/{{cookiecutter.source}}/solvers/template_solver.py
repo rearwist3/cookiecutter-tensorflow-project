@@ -1,9 +1,9 @@
-from base.base_train import BaseTrain
+from base.base_solution import BaseSolution
 from tqdm import tqdm
 import numpy as np
 
 
-class TemplateSolver(BaseSolve):
+class TemplateSolver(BaseSolution):
     def __init__(self, sess, model, data, config, logger):
         super(TemplateSolver, self).__init__(sess, model, data, config, logger)
 

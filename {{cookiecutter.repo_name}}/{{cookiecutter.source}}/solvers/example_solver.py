@@ -1,9 +1,9 @@
-from base.base_train import BaseSolve
+from base.base_solution import BaseSolution
 from tqdm import tqdm
 import numpy as np
 
 
-class ExampleSolver(BaseSolve):
+class ExampleSolver(BaseSolution):
     def __init__(self, sess, model, data, config,logger):
         super(ExampleSolver, self).__init__(sess, model, data, config,logger)
 

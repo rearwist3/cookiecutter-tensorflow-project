@@ -1,7 +1,7 @@
 import tensorflow as tf
 
 
-class BaseSolve:
+class BaseSolution:
     def __init__(self, sess, model, data, config, logger):
         self.model = model
         self.logger = logger
