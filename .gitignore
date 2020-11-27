@@ -117,3 +117,12 @@ tests/__pycache__/*
 *.pytest_cache/
 {{cookiecutter.repo_name}}/.DS_Store
 .vscode/settings.json
+
+# img
+*.png
+*.jpg
+*.bmp
+
+# log
+*.csv
+*.txt
