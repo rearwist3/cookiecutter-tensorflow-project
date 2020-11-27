@@ -9,7 +9,7 @@ class TemplateSolver(BaseSolve):
 
     def fit(self):
         """
-       implement the logic of epoch:
+       implement the logic of training:
        -loop on the number of iterations in the config and call the train step
        -add any summaries you want using the summary
         """
@@ -17,7 +17,7 @@ class TemplateSolver(BaseSolve):
 
     def predict(self):
         """
-       implement the logic of the train step
+       implement the logic of the prediction
        - run the tensorflow session
        - return any metrics you need to summarize
        """
